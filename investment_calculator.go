@@ -7,12 +7,15 @@ import (
 
 func main() {
 	const inflationRate = 2.5
-	var investmentAmount float64 = 1000
-	years := 10.0
-	expectedReturnRate := 5.5
+	var investmentAmount float64
+	var years float64
+	var expectedReturnRate float64
 
 	fmt.Print("Investment Amount: ")
 	fmt.Scan(&investmentAmount)
+
+	fmt.Print("Investment Expected Rate: ")
+	fmt.Scan(&expectedReturnRate)
 
 	fmt.Print("Investment Years: ")
 	fmt.Scan(&years)
